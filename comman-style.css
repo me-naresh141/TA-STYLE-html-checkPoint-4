@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+  .container {
+    max-width: 75rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+  }
+  .flex {
+    display: flex;
+  }
+  
+  .flex-12 {
+    flex: 0 1 20%;
+  }
+  
+  .flex-18 {
+    flex: 0 1 30%;
+    height: 250px;
+    border-radius: 8%;
+  }
+  .flex-20 {
+    flex: 0 1 20%;
+  }
+  .flex-30 {
+    flex: 0 1 30%;
+  }
+  
+  .flex-35 {
+    flex: 0 1 35%;
+  }
+  .flex-40 {
+    flex: 0 1 40%;
+  }
+  .flex-48 {
+    flex: 0 1 48%;
+  }
+  .flex-50 {
+    flex: 0 1 50%;
+  }
+  .flex-60 {
+    flex: 0 1 60%;
+  }
+  
+  .flex-33 {
+    flex: 0 1 33%;
+    background-color: rgb(234, 84, 51);
+    text-align: center;
+    border-radius: 1%;
+  }
+  .flex-70 {
+    flex: 0 1 70%;
+  }
+  .flex-100 {
+    flex: 0 1 100%;
+  }
+  .justify-content {
+    justify-content: space-between;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  .justify-content-around {
+    justify-content: space-around;
+  }
+  .justify-content-end {
+    justify-content: end;
+  }
+  .text-align {
+    text-align: center;
+  }
+  .flex-colum {
+    flex-direction: column;
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .align-center {
+    align-items: center;
+  }
+  
+  .color-gray {
+    color: rgb(99, 85, 81);
+  }
+  .color-red {
+    color: red;
+  }
+  .color-white {
+    color: white;
+  }
+  .color-orange {
+    color: rgb(234, 84, 51);
+  }
+  .b-color-gray {
+    background-color: gray;
+  }
+  .b-color-light {
+    background-color: rgb(88, 75, 72);
+  }
+  .b-color-orange {
+    background-color: rgb(236, 112, 72);
+  }
+  .b-color-white {
+    background-color: white;
+  }
+  .b-color-red {
+    background-color: red;
+  }
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 0.5rem 0;
+    border-radius: 30px;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+  }
+  
+  .bg-orange {
+    background-color: rgb(236, 112, 72);
+  }
+  /* padding */
+  .padding-1 {
+    padding: 1rem;
+  }
+  .padding-24 {
+    padding: 1.5rem;
+  }
+  .padding-top-bottom {
+    padding: 2rem 0;
+  }
+  .padding-top {
+    padding-top: 2rem;
+  }
+  .margin-top-bottom {
+    margin: 0.5rem 0;
+  }
+  .margin-top-bottom-4 {
+    margin: 4rem 0;
+  }
+  .margin-left {
+    margin-left: 1rem;
+  }
+  .box-shadow {
+    box-shadow: 4px 4px 15px 0px rgb(84, 83, 83);
+  }
+  .full-width {
+    width: 100%;
+  }
+  .gap {
+    gap: 2rem;
+  }
+  
